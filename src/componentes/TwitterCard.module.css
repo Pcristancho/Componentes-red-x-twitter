@@ -1,0 +1,72 @@
+.articulos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: .8rem;
+}
+.cabecera{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.Sspan{
+    opacity: .6;
+}
+.avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.boton.siguiendo:hover {
+    background-color: red;
+}
+.boton.siguiendo:hover .textoBoton{
+    display: none;
+  
+}
+.boton.siguiendo{
+    border: 1px solid red;
+    background: transparent;
+    color: #fff;
+    width: 140px;
+    /* background: red;
+    color: #fff; */
+    
+}
+
+.boton:hover{
+    background-color: #09f;
+}
+.boton{
+    margin-left: 16px;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+    border: 1px solid #000;
+
+}
+
+.boton.siguiendo:hover .pararSeguir{  /*para todo hijo con clase .pararseguir */
+    display: block;
+    
+
+}
+
+.pararSeguir{
+    display: none;
+}
+
+.textoBoton{
+    display: block;
+}
+
+
+.colores{
+    background-color: red;
+}
